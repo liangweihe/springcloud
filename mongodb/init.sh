@@ -1,4 +1,11 @@
 #!/bin/bash
+
+#--------------------------------------------
+# author：郭瑞
+# Version: 1.0
+# Date: 2020-05-19
+#--------------------------------------------
+
 if test -z "$MONGODB_PASSWORD"; then
     echo "MONGODB_PASSWORD not defined"
     exit 1
